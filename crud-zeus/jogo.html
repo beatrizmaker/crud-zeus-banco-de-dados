@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jogo da Cobrinha</title>
+
+    <link rel="stylesheet" href="jogo.css">
+</head>
+
+<body>
+
+    <main class="jogo">
+
+        <h2 id="pontuacaoTela">Pontuação: 0</h2>
+
+        <canvas
+            id="canvas"
+            width="600"
+            height="600"
+            aria-label="Área do jogo da cobrinha">
+        </canvas>
+
+    </main>
+
+    <div id="gameOver">
+
+        <h2>Fim de jogo! ＞︿＜</h2>
+
+        <h3 id="pontuacaoFinal">Sua pontuação: 0</h3>
+
+        <section id="rankingFim">
+
+            <h3>🏆 Ranking</h3>
+
+            <ol id="rankingFimLista"></ol>
+
+        </section>
+
+        <button id="reiniciar" type="button">
+            Jogar novamente
+        </button>
+
+        <a href="index.html" id="voltarInicio">
+            Voltar à tela inicial
+        </a>
+
+    </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

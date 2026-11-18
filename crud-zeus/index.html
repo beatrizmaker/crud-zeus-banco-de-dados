@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Joguinho da Cobrinha</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Joguinho da cobrinha! (∩^o^)⊃━☆</h1>
+    </div>
+
+    <h2>Escolha a cor da sua cobrinha:</h2>
+
+    <div id="corescobra">
+
+        <button class="cor"
+            type="button"
+            data-cor="rgb(233, 186, 209)"
+            style="background-color: rgb(233, 186, 209);"
+            aria-label="Rosa">
+        </button>
+
+        <button class="cor"
+            type="button"
+            data-cor="rgb(131, 192, 131)"
+            style="background-color: rgb(131, 192, 131);"
+            aria-label="Verde">
+        </button>
+
+        <button class="cor"
+            type="button"
+            data-cor="rgb(177, 201, 233)"
+            style="background-color: rgb(177, 201, 233);"
+            aria-label="Azul">
+        </button>
+
+        <button class="cor"
+            type="button"
+            data-cor="rgb(212, 165, 212)"
+            style="background-color: rgb(212, 165, 212);"
+            aria-label="Lilás">
+        </button>
+
+    </div>
+
+    <section class="instrucoes">
+
+        <h2>Como jogar?</h2>
+
+        <p>
+            Use as teclas W, A, S e D para movimentar a cobrinha.
+            Coma os morangos para crescer e aumentar sua pontuação!
+        </p>
+
+        <p class="frase">
+            Uma cobrinha nunca para... então mantenha o foco! 🍓
+        </p>
+
+    </section>
+
+    <label for="nomeJogador">
+        Digite seu nome para jogar:
+    </label>
+
+    <input
+        type="text"
+        id="nomeJogador"
+        placeholder="Seu nome aqui"
+        maxlength="20"
+    >
+
+    <a href="jogo.html" class="start-button" id="iniciar">
+        Iniciar Jogo
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
